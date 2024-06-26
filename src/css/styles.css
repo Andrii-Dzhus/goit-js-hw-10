@@ -23,19 +23,18 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.main{
+.main {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 150px;
   font-size: 64px;
   align-items: center;
   height: 100vh;
 }
 
-.gallery:hover {
+.timer:hover {
   color: blue;
 }
-.form:hover {
+.snackbar:hover {
   color: blue;
-
 }
