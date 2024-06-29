@@ -1,89 +1,73 @@
-.feedback-form {
-  margin: 0 auto;
-  background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 24px;
-  max-width: 408px;
-  max-height: 296px;
-}
-
-.feedback-form label {
-  display: block;
-  margin-bottom: 8px;
+body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
-
-.feedback-form input {
-  border: 1px solid #808080;
-  border-radius: 4px;
-  min-width: 375px;
-  height: 40px;
-  display: block;
-
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-  padding: 8px 16px;
-  margin-top: 8px;
-}
-
-.feedback-form textarea {
-  display: block;
-  border: 1px solid #808080;
-  border-radius: 4px;
-  width: 375px;
-  height: 80px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-  padding: 8px 16px;
-  margin-top: 8px;
-}
-
-.feedback-form textarea {
-  resize: vertical;
-}
-
-.feedback-form button {
-  margin-top: 8px;
-  background-color: #4e75ff;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  padding: 8px 16px;
-  width: 95px;
-  height: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-
-.feedback-form button:hover {
-  background-color: #6c8cff;
 }
 
 .form-home {
   display: block;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: #007bff;
   text-decoration: none;
 }
 
 .form-home:hover {
   text-decoration: underline;
+}
+
+.form {
+}
+
+.form label {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+}
+.form input[name='delay'] {
+  display: block;
+  margin-top: 5px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
+
+.form fieldset {
+  width: 360px;
+  height: 60px;
+  margin: 0;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  border: 1px solid #808080;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6c8cff;
 }
