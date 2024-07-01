@@ -80,6 +80,9 @@ flatpickr(datePicker, {
   },
 });
 
+// Вимкнути кнопку "Start" при завантаженні сторінки
+startButton.disabled = true;
+
 startButton.addEventListener('click', () => {
   const selectedDate = new Date(datePicker.value);
   startTimer(selectedDate);
